@@ -256,12 +256,22 @@ a:hover { color: var(--navy); }
 /* Hero Visual — compliance card */
 .hero-visual { position: relative; }
 .compliance-card {
-  background: var(--blue);
-  border: 1px solid rgba(255,255,255,.18);
-  backdrop-filter: blur(16px);
+  background: linear-gradient(145deg,
+    #2a8fe0 0%,
+    #1a72c4 18%,
+    #1565c0 38%,
+    #0e4fa3 60%,
+    #1268be 78%,
+    #1e7fd4 100%);
+  border: 1px solid rgba(255,255,255,.28);
+  border-top-color: rgba(255,255,255,.5);
   border-radius: var(--r-lg);
   padding: 28px;
-  box-shadow: var(--sh-xl), inset 0 1px 0 rgba(255,255,255,.08);
+  box-shadow:
+    0 12px 40px rgba(13,71,161,.45),
+    0 2px 8px rgba(0,0,0,.25),
+    inset 0 1px 0 rgba(255,255,255,.35),
+    inset 0 -1px 0 rgba(0,0,0,.2);
 }
 .cc-header {
   display: flex;
