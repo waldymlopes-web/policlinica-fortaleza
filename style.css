@@ -965,16 +965,12 @@ a:hover { color: var(--navy); }
 .marquee-dot { color: rgba(255,255,255,.4); font-size: 18px; }
 
 /* ---------- LOGO ICON LARGE (hero) ---------- */
-.logo-circle {
-  width: 160px; height: 160px;
-  background: rgba(255,255,255,.1);
-  border: 2px solid rgba(255,255,255,.2);
-  border-radius: 50%;
-  object-fit: contain;
-  padding: 18px;
-  margin-bottom: 28px;
-  backdrop-filter: blur(8px);
+.hero-logo-img {
+  height: 110px;
+  width: auto;
+  opacity: .92;
   display: block;
+  margin-bottom: 28px;
 }
 
 /* ---------- RESPONSIVE ---------- */
