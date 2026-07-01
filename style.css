@@ -38,11 +38,16 @@
 
 /* ---------- Reset & Base ---------- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+  background: linear-gradient(170deg, #ffffff 0%, #e8f4fd 45%, #cde3f5 100%);
+  background-attachment: fixed;
+}
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--text);
-  background: var(--white);
+  background: transparent;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -154,8 +159,7 @@ a:hover { color: var(--navy); }
 
 /* ---------- HERO ---------- */
 .hero {
-  background: #ffffff;
-  background-image: linear-gradient(150deg, #ffffff 0%, #e8f4fd 55%, #c8e4f8 100%);
+  background: transparent;
   min-height: 92vh;
   display: flex;
   align-items: center;
@@ -327,7 +331,7 @@ a:hover { color: var(--navy); }
 
 /* ---------- STATS BAR ---------- */
 .stats-bar {
-  background: var(--white);
+  background: rgba(255,255,255,.5);
   border-bottom: 1px solid var(--border);
   padding: 0;
 }
@@ -360,7 +364,7 @@ a:hover { color: var(--navy); }
 /* ---------- SECTIONS ---------- */
 .section { padding: 88px 0; }
 .section-sm { padding: 56px 0; }
-.section-alt { background: var(--bg); }
+.section-alt { background: rgba(255,255,255,.45); }
 .section-navy { background: var(--navy-dark); }
 
 .section-header { text-align: center; margin-bottom: 56px; }
