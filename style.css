@@ -8,9 +8,9 @@
   /* Cores originais do site policlinicafortaleza.com.br */
   --navy:        #1a1a2e;   /* --color-dark original */
   --navy-dark:   #0f0f1e;
-  --navy-mid:    #005b96;   /* --color-primary original */
-  --blue:        #005b96;   /* --color-primary original */
-  --blue-mid:    #1a6faa;
+  --navy-mid:    #1565c0;
+  --blue:        #1565c0;
+  --blue-mid:    #1976d2;
   --blue-light:  #e8f4fd;   /* --color-accent original */
   --amber:       #F59E0B;
   --amber-light: #FEF3C7;
@@ -79,7 +79,7 @@ a:hover { color: var(--navy); }
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: var(--navy);
+  background: var(--blue);
 }
 .header-strip {
   background: rgba(0,0,0,.25);
@@ -871,8 +871,8 @@ a:hover { color: var(--navy); }
 
 /* ---------- FOOTER ---------- */
 .site-footer {
-  background: var(--navy-dark);
-  color: rgba(255,255,255,.6);
+  background: #0d47a1;
+  color: rgba(255,255,255,.75);
 }
 .footer-main {
   display: grid;
