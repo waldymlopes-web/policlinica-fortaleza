@@ -113,12 +113,14 @@ a:hover { color: var(--navy); }
 }
 .logo-wrap { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
 .logo-icon {
-  height: 52px;
+  height: 56px;
   width: auto;
   flex-shrink: 0;
   display: block;
   object-fit: contain;
-  filter: brightness(0) invert(1);
+  background: #fff;
+  border-radius: 8px;
+  padding: 4px 8px;
 }
 .logo-text { display: none; }
 .main-nav { display: flex; align-items: center; gap: 2px; }
