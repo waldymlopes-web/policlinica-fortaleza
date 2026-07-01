@@ -113,7 +113,7 @@ a:hover { color: var(--navy); }
 }
 .logo-wrap { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
 .logo-icon {
-  height: 52px;
+  height: 64px;
   width: auto;
   flex-shrink: 0;
   display: block;
